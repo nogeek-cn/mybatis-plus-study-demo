@@ -33,7 +33,7 @@ public class MybatisPlusConfig {
     @Profile({"dev", "test"})
     public PerformanceInterceptor performanceInterceptor() {
         PerformanceInterceptor performanceInterceptor = new PerformanceInterceptor();
-        // 默认 false , 标准 SQL 格式化输出，像navicat 一样
+        // 默认 false , 标准 SQL 格式化输出，像 navicat 一样
         performanceInterceptor.setFormat(true);
         // 超过 50 ms 报错。
         performanceInterceptor.setMaxTime(50);

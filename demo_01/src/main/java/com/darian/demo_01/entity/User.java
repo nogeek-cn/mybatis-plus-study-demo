@@ -1,4 +1,4 @@
-package com.darian.demo_high.entity;
+package com.darian.demo_01.entity;
 
 import lombok.Data;
 

@@ -1,7 +1,8 @@
 package com.darian.demo_high.dao;
 
 
-import com.darian.demo_high.entity.User;
+import com.darian.demo_01.dao.UserMapper;
+import com.darian.demo_01.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;
