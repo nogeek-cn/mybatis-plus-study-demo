@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "mybatis-3-mappe.dtd" >
-<mapper namespace="com.darian.demo_03.dao.UserMapper">
-
-    <select id="slectALL" resultType="com.darian.demo_03.endity.User">
-        slect * from user ${ew.customSqlSegment}
-    </select>
-</mapper>
