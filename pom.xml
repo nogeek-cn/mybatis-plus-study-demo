@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>mybatis-plus-study-demo</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <modules>
         <module>demo_01</module>
